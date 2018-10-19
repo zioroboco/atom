@@ -31,6 +31,7 @@ class AtomWindow extends EventEmitter {
     this.closedPromise = new Promise(resolve => { this.resolveClosedPromise = resolve })
 
     const options = {
+      frame: false,
       show: false,
       title: 'Atom',
       tabbingIdentifier: 'atom',
